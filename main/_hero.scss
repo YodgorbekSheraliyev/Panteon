@@ -17,7 +17,9 @@ $thirdColor: #0c1417;
       position: relative;
       top: 40px;
     }
- 
+ &-end {
+  box-sizing: border-box;
+ }
   }
   &__title {
     font-weight: 700;

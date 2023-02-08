@@ -229,6 +229,9 @@ justify-content: center ;
   .menu__section-end {
     width: 80%;
   }
+  .header__item:first-child {
+    padding-top: 20px;
+  }
 
     .header__item:nth-child(2), .header__item:nth-child(3) {
       display: none;
@@ -240,6 +243,9 @@ justify-content: center ;
       position: absolute;
       right: 30px;
       top: 5px;
+    }
+    .menu__btn {
+transform: translateX(-20px);
     }
     .aside__holder {
       justify-content: center;
